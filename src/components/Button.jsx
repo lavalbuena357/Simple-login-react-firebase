@@ -7,6 +7,7 @@ function Button(props) {
       primary={props.primary}
       danger={props.danger}
       success={props.success}
+      onClick={props.onClick}
     >{props.title || 'Botón'}
     </ButtonStyle>
   )
